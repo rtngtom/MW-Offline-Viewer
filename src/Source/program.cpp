@@ -19,6 +19,7 @@ Program::~Program() {
 
 void Program::programLoop() {
 	bool exit = false;
+
 	Graphics graphics;
 	SDL_Event e;
 
@@ -31,8 +32,18 @@ void Program::programLoop() {
 			if (e.type == SDL_QUIT) {
 				exit = true;
 			}
-
-
 		}
+
+		this->update();
 	}
+}
+
+void Program::draw(Graphics &graphics) {
+	graphics.clear();
+
+	graphics.flip();
+}
+
+void Program::update() {
+
 }

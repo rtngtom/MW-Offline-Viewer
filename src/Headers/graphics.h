@@ -1,6 +1,5 @@
 #pragma once
 
-#include <map>
 #include <string>
 
 struct SDL_Window;
