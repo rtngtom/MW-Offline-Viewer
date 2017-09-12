@@ -18,6 +18,17 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\fileIO.cpp" />
+    <ClCompile Include="src\graphics.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\program.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\fileIO.h" />
+    <ClInclude Include="include\graphics.h" />
+    <ClInclude Include="include\program.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{6838ADFC-1EDD-41F1-99DB-95F1B1ADB07D}</ProjectGuid>
@@ -70,7 +81,7 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>C:\SDL2_image-2.0.1\include;C:\SDL2-2.0.5\include;$(IncludePath)</IncludePath>
+    <IncludePath>C:\SDL2_image-2.0.1\include;C:\SDL2-2.0.5\include;C:\Users\Steven\Documents\Visual Studio 2017\Projects\MW-Offline-Viewer\include;$(IncludePath)</IncludePath>
     <LibraryPath>C:\SDL2_image-2.0.1\lib\x86;C:\SDL2-2.0.5\lib\x86;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
@@ -117,19 +128,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="charSheet.cpp" />
-    <ClCompile Include="graphics.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="inputFile.cpp" />
-    <ClCompile Include="program.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="charSheet.h" />
-    <ClInclude Include="graphics.h" />
-    <ClInclude Include="inputFile.h" />
-    <ClInclude Include="program.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
