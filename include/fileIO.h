@@ -1,6 +1,7 @@
 #pragma once
 
 #include <string>
+#include <iostream>
 
 class FileIO {
 public:
@@ -10,5 +11,6 @@ public:
 	std::string readFile();
 	std::string writeFile(std::string sheetData);
 private:
-	std::string fileName;
+	std::string _fileName;
+	std::ofstream _file;
 };

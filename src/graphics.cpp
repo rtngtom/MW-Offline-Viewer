@@ -1,7 +1,7 @@
 #include <SDL.h>
 #include <SDL_image.h>
 
-#include "../include/graphics.h"
+#include "graphics.h"
 
 /* Graphics class
 * Holds all information dealing with graphics for the program.

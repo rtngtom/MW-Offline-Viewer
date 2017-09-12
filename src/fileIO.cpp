@@ -1,15 +1,17 @@
-#include <iostream>
 #include <fstream>
 
-#include "inputFile.h"
-
+#include "fileIO.h"
 
 FileIO(std::string fileName) {
+	_file.open(fileName);
+}
 
+~FileIO() {
+	_file.close;
 }
 
 std::string readFile(std::string fileName) {
-	std::ofstream 
+	
 }
 
 std::string writeFile(std::string fileName, std::string sheetData) {
