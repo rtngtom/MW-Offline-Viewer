@@ -33,7 +33,7 @@
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{6838ADFC-1EDD-41F1-99DB-95F1B1ADB07D}</ProjectGuid>
     <RootNamespace>MWOfflineViewer</RootNamespace>
-    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

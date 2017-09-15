@@ -2,18 +2,18 @@
 
 #include "fileIO.h"
 
-FileIO(std::string fileName) {
+FileIO::FileIO(std::string fileName) {
 	_file.open(fileName);
 }
 
-~FileIO() {
-	_file.close;
+FileIO::~FileIO() {
+	_file.close();
 }
 
 std::string readFile(std::string fileName) {
-	
+	return NULL;
 }
 
 std::string writeFile(std::string fileName, std::string sheetData) {
-
+	return NULL;
 }
